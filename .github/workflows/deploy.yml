@@ -3,7 +3,7 @@ name: Build, Push Docker Image and Deploy to EC2
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   build:
